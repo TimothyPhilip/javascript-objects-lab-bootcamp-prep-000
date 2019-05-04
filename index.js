@@ -17,5 +17,5 @@ function deleteFromObjectByKey(object, key){
 }
 
 function deleteFromObjectByKey(object, key){
-  return object
+  return Object.assign({}, meals, { breakfast: [key] })
 }
